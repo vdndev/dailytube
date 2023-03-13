@@ -1,0 +1,25 @@
+{
+  "name": "dailytube",
+  "description": "Clone de youtube, tout simplement 🙂",
+  "author": "Mathieu Vandernoot <vdndev@users.noreply.github.com>",
+  "homepage": "https://github.com/vdndev/dailytube#README.md",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdndev/dailytube"
+  },
+  "bugs": {
+    "url": "https://github.com/vdndev/dailytube/issues"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "husky": "^8.0.3",
+    "lerna": "^6.4.1"
+  }
+}
